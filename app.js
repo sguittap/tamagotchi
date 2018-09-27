@@ -56,8 +56,8 @@ const evolve=()=>{
 
 const eventTimer = ()=>{
     seconds++;
-    if(pet.age === 6 && pet.evolved === false){
-            //evolve();
+    if(pet.age === 3 && pet.evolved === false){
+            evolve();
     }
     if(seconds % 5 === 0){
         pet.hunger++
@@ -78,8 +78,8 @@ const eventTimer = ()=>{
     if(pet.age % 20 === 0){
         pet.age++;
         }
-    if(pet.hunger >= 15 || pet.tired >= 15 || pet.boredom >= 15 || pet.age >= 7){
-        //death();
+    if(pet.hunger >= 15 || pet.tired >= 15 || pet.boredom >= 15 || pet.age >= 10){
+        death();
         }
 };
 
@@ -97,7 +97,7 @@ const runGame=()=>{
     $('.start-container').remove();
     $('#eggRoll').remove();
     $('.monster').append('<img id="first-monster" src="http://rs971.pbsrc.com/albums/ae193/DigitalDestinyClan/Digimon%20and%20Icon%20Sprites/Hex%20Code%20Digimon/Coronamonblueflame.gif~c200"/>');
-    //moveLeft();
+    moveLeft();
     createStatus();
     createActionButtons();
     game.timer = setInterval(eventTimer, 500);
