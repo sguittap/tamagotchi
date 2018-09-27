@@ -56,7 +56,7 @@ const evolve=()=>{
 
 const eventTimer = ()=>{
     seconds++;
-    if(pet.age === 3 && pet.evolved === false){
+    if(pet.age === 6 && pet.evolved === false){
             evolve();
     }
     if(seconds % 5 === 0){

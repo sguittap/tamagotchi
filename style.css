@@ -90,6 +90,7 @@ h1{
 h2{
     color: white;
     margin-left: 40%;
+    margin-top: 30%;
 }
 
 .food{
@@ -128,7 +129,7 @@ h2{
     /* padding:80%; */
     width: 40vw;
     height: 50vh;
-    margin-top: 40%;
+    margin-top: 10%;
 }
 .evo2{
     text-align: center;
@@ -137,5 +138,5 @@ h2{
     /* padding:80%; */
     width: 30vw;
     height: 40vh;
-    margin: 50%;
+    margin-top: 10%;
 }
