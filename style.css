@@ -1,0 +1,141 @@
+.backgroundImg {
+    background-image: url(http://38.media.tumblr.com/0d56a3b2600adb40c2fda64a983da321/tumblr_inline_neso8lbDw31s8zs5f.gif);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* border: 5px, solid, black; */
+    /* display: block;
+    margin:; */
+    /* padding:5%; */
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+
+    
+}
+
+#start-game {
+    position:center;
+}
+.start-container{
+    height: 10em;
+    width: 20em;
+    text-align: center;
+    display: inline-block;
+    margin: 20% 30% 5% 30%;
+    /* margin-left: 30%;
+    margin-top: 10%; */
+
+}
+h1{
+    color:white;
+}
+#eggRoll{
+    width: 200px;
+    height: 120px;
+    margin-left: 10%;
+    top: 65%;
+    left: 50%;
+}
+#wrapper{
+    border: none;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    margin-bottom: 5;
+    text-align: center;
+    bottom: 0;
+    position: center;
+}
+.monster{
+    border: none;
+    height: 30vh; 
+    width: 30vw;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: center;
+    size: contain;
+    margin: 10%;
+}
+
+#first-monster{
+    text-align: center;
+    display: inline-block;
+    /* margin:0; */
+    /* padding:80%; */
+    width: 20vw;
+    height: 25vh;
+    margin-top: 60%;
+    
+}
+
+.actionButtons{
+    display: block;
+    width: 200px;
+    height:100px
+    /* width: 400px;
+    height:100px; */
+    /* top: 0px;
+    right:20%; */
+}
+
+.status {
+    display: block;
+    color: white;
+    width: 100px;
+    /* top: 0;
+    left: 20%; */
+}
+
+h2{
+    color: white;
+    margin-left: 40%;
+}
+
+.food{
+    font-size: 40%; 
+    color: black;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    height: 3em;
+    width: 8em;
+} 
+.sleep{
+    font-size: 40%; 
+    color: black;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    height: 3em;
+    width: 8em;
+}
+.play{
+    font-size: 40%; 
+    color: black;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    height: 3em;
+    width: 8em;
+}
+#dead{
+    height: 300px;
+    width: 300px;
+}
+
+.evo1{
+    text-align: center;
+    display: inline-block;
+    /* margin:0; */
+    /* padding:80%; */
+    width: 40vw;
+    height: 50vh;
+    margin: 50%;
+}
+.evo2{
+    text-align: center;
+    display: inline-block;
+    /* margin:0; */
+    /* padding:80%; */
+    width: 30vw;
+    height: 40vh;
+    margin: 50%;
+}
